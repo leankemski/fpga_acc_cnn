@@ -1,0 +1,44 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="Conv" label="cin_loop" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="128"/>
+            </pragma>
+        </directive>
+        <directive functionName="Conv" label="kx_loop" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="7"/>
+            </pragma>
+        </directive>
+        <directive functionName="Conv" label="ky_loop" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="7"/>
+            </pragma>
+        </directive>
+        <directive functionName="Conv" label="wout_loop" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="28"/>
+            </pragma>
+        </directive>
+        <directive functionName="Conv" label="hout_loop" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="28"/>
+            </pragma>
+        </directive>
+        <directive functionName="Conv" label="cout_loop" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="128"/>
+            </pragma>
+        </directive>
+        <directive functionName="Conv" label="cin_loop" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+
